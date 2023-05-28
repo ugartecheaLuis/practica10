@@ -4,7 +4,7 @@ def cambio(cantidad, denominaciones):
     resultado = []
     while cantidad > 0:
         if cantidad >= denominaciones[0]:
-            num = cantidad // denominaciones[0] #el // es para division entera
+            num = cantidad // denominaciones[0] 
             cantidad = cantidad - (num * denominaciones[0])
             resultado.append([denominaciones[0], num])
         denominaciones = denominaciones[1:]
