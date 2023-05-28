@@ -21,7 +21,7 @@ def buscador (con):
 
 
 t0 = time()
-con = 'aaaa'
+con = '9999'
 buscador(con)
 t1 = time()
 print ("Tiempo de ejecución: {}".format(round(t1-t0, 4)))
